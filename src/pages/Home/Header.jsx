@@ -3,7 +3,7 @@ import { Icon } from "@iconify/react";
 
 const Header = () => {
   return (
-    <section className="bg-[#111315] paddingYShorter3 paddingXLongger3">
+    <section className="bg-[#111315] paddingYShorter2 paddingXLongger3">
       <div className="flex flex-col md:flex-row lg:flex-row justify-between paddingX">
         <div className="flex flex-col justify-start">
           <label className="text-white text-3xl font-light">

@@ -7,6 +7,12 @@
   font-family: 'Dosis', sans-serif;
 }
 
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* две колонки */
+  grid-gap: 10px; /* расстояние между элементами */
+}
+
 /* IMPORTANT:
 -md itu untuk ipad (portrait),
 -lg itu untuk ipad (landscape), 
