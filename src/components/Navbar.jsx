@@ -5,7 +5,7 @@ import { VscBellDot } from "react-icons/vsc";
 const Navbar = () => {
   return (
     <section>
-      <div className="navbar bg-[#000000]">
+      <div className="navbar bg-[#111315]">
         <div className="flex-1">
           <img />
           <a className="btn btn-ghost normal-case text-xl text-white">

@@ -1,5 +1,5 @@
-import usc from "../../assets/usc.png";
-import bit from "../../assets/bit.png";
+import usc from ".././assets/usc.png";
+import bit from ".././assets/bit.png";
 
 export const coinList = [
   {
