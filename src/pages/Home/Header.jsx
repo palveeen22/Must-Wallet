@@ -17,7 +17,7 @@ const Header = () => {
             <div className="flex flex-col">
               <div className="flex items-center gap-2">
                 <label className="font-light text-white">140</label>
-                <Icon icon="formkit:arrowdown" width={15} color="#249833" />
+                <Icon icon="formkit:arrowup" width={10} color="#249833" />
               </div>
               <div className="flex items-center gap-2">
                 <label className="font-extralight ">Trades</label>

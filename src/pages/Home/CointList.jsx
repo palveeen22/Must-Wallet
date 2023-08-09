@@ -2,8 +2,10 @@ import React from "react";
 import { Icon } from "@iconify/react";
 import { coinList, tradeDeals } from "../../components/Constants";
 import bit from "../../assets/bit.png";
+import ProfitCard from "../../components/ProfitCard";
 
 const CointList = () => {
+  // console.log("https://rest.coinapi.io/v1/exchangerate");
   return (
     <section className="bg-[#111315] w-full paddingX paddingYShorter flex flex-col md:flex-row lg:flex-row justify-center gap-5">
       <div className="md:w-[65%] w-full flex flex-col justify-start gap-2">
@@ -53,6 +55,7 @@ const CointList = () => {
             </div>
           );
         })}
+        <ProfitCard />
       </div>
       <div className="md:w-[40%] w-full flex flex-col justify-start gap-2">
         <p className="text-[#ffffff] font-light text-2xl">Trade Deals</p>
